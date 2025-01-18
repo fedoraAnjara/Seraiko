@@ -156,7 +156,13 @@ export default function PrimarySearchAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar
+        position="static"
+        sx={{
+          backgroundColor: "#FE9900", // Change la couleur de fond
+          padding: 2, // Ajoute du padding
+        }}
+      >
         <Toolbar>
           <IconButton
             size="large"
@@ -173,9 +179,13 @@ export default function PrimarySearchAppBar() {
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            MUI
+            SERAIKO
           </Typography>
-          <Search>
+          <Search
+            sx={{
+              backgroundColor: "#FDAA2C",
+            }}
+          >
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
@@ -185,7 +195,13 @@ export default function PrimarySearchAppBar() {
             />
           </Search>
           <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: { xs: "none", md: "flex" } }}>
+                  <Box sx={{
+                      display: { xs: "none", md: "flex" },
+                      flexDirection: "row",
+                      justifyContent: "space-around",
+                      alignItems: "center",
+                      width: "200px",
+                  }}>
             <IconButton
               size="large"
               aria-label="show 4 new mails"
