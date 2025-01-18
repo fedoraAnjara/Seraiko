@@ -13,7 +13,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
-import AddShoppingCart from "@mui/icons-material/AddShoppingCart";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 
