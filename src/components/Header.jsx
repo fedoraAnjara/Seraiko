@@ -160,7 +160,7 @@ export default function PrimarySearchAppBar() {
         position="static"
         sx={{
           backgroundColor: "#FE9900", // Change la couleur de fond
-          padding: 2, // Ajoute du padding
+          pr: 2, pl: 2, pt: 1, pb: 1
         }}
       >
         <Toolbar>
@@ -177,7 +177,10 @@ export default function PrimarySearchAppBar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: "none", sm: "block" } }}
+                      sx={{
+                          display: { xs: "none", sm: "block" },
+                          mr: 5, ml: 5
+                      }}
           >
             SERAIKO
           </Typography>

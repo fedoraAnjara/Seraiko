@@ -1,12 +1,17 @@
-import "./index.css";
+// App.js
+import React from "react";
 import ProductList from "./components/ProductList";
+import Cart from "./components/Cart";
+import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
-    <>
+    <div>
+      <Header />
       <ProductList />
-    </>
+      <Cart />
+    </div>
   );
-}
+};
 
 export default App;
